@@ -32,16 +32,16 @@ importers:
         version: 1.64.1
       '@sveltejs/adapter-auto':
         specifier: ^7.0.1
-        version: 7.0.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))
+        version: 7.0.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))
       '@sveltejs/adapter-cloudflare':
         specifier: ^7.2.9
-        version: 7.2.9(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))(wrangler@4.120.0)
+        version: 7.2.9(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))(wrangler@4.120.0)
       '@sveltejs/kit':
         specifier: ^2.70.3
-        version: 2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)
+        version: 2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^7.0.0
-        version: 7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2)
+        specifier: ^7.3.1
+        version: 7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2)
       '@types/eslint':
         specifier: ^9.6.1
         version: 9.6.1
@@ -688,8 +688,8 @@ packages:
       typescript:
         optional: true
 
-  '@sveltejs/vite-plugin-svelte@7.0.0':
-    resolution: {integrity: sha512-ILXmxC7HAsnkK2eslgPetrqqW1BKSL7LktsFgqzNj83MaivMGZzluWq32m25j2mDOjmSKX7GGWahePhuEs7P/g==}
+  '@sveltejs/vite-plugin-svelte@7.3.1':
+    resolution: {integrity: sha512-ZPsLN8B1e/En+Ak5s4V7srFDT532oS0qieLsQwu63NGKsS+iAjoO2Js1BochlHlglcU+Pt7WAO3C5Ee+4f6gVA==}
     engines: {node: ^20.19 || ^22.12 || >=24}
     peerDependencies:
       svelte: ^5.46.4
@@ -935,6 +935,9 @@ packages:
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
+
+  magic-string@1.4.3:
+    resolution: {integrity: sha512-z12OxmaPGE0F4xlpGdjuAUckipLpQlTAuAmyGhNoD7ODpYUzvDfvtxUbjM/jwznyP178oju/KDdyi220wNJ0RQ==}
 
   miniflare@5.20260801.1-alpha:
     resolution: {integrity: sha512-BHPVzIDA6mbx7LefxpvkXW7DHx9FKB9GorZatbnrrFTt3CVMU8zuUpbgyCuebwDKcTTOZos43ta8GQ0eMVEpxA==}
@@ -1599,22 +1602,22 @@ snapshots:
     dependencies:
       acorn: 8.19.0
 
-  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))':
+  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))':
     dependencies:
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)
 
-  '@sveltejs/adapter-cloudflare@7.2.9(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))(wrangler@4.120.0)':
+  '@sveltejs/adapter-cloudflare@7.2.9(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2))(wrangler@4.120.0)':
     dependencies:
       '@cloudflare/workers-types': 4.20260702.1
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)
       worktop: 0.8.0-next.18
       wrangler: 4.120.0
 
-  '@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)':
+  '@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2))(svelte@5.57.2(@typescript-eslint/types@8.57.2))(typescript@6.0.3)(vite@8.0.2)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@sveltejs/acorn-typescript': 1.0.13(acorn@8.19.0)
-      '@sveltejs/vite-plugin-svelte': 7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2)
+      '@sveltejs/vite-plugin-svelte': 7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2)
       '@types/cookie': 0.6.0
       acorn: 8.19.0
       cookie: 0.6.0
@@ -1630,10 +1633,10 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  '@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2)':
+  '@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2(@typescript-eslint/types@8.57.2))(vite@8.0.2)':
     dependencies:
       deepmerge: 4.3.1
-      magic-string: 0.30.21
+      magic-string: 1.4.3
       obug: 2.1.1
       svelte: 5.57.2(@typescript-eslint/types@8.57.2)
       vite: 8.0.2
@@ -1850,6 +1853,10 @@ snapshots:
   locate-character@3.0.0: {}
 
   magic-string@0.30.21:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.6.0
+
+  magic-string@1.4.3:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
 
